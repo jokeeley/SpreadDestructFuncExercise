@@ -18,7 +18,7 @@ const jPCharacters ={
 };
 
 // 2b
-seeCharacters = ([ellieSattler]) => console.log(ellieSattler);
+seeCharacters = ({ellieSattler}) => console.log(ellieSattler);
 
 seeCharacters(jPCharacters);
 
